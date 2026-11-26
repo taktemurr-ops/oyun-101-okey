@@ -87,6 +87,7 @@ final okey101Config = GameConfig(
     ],
   seedColor: const Color(0xFF2C5D8F),
   icon: Icons.stacked_bar_chart,
+  extraModes: [lessonMode(LessonCourse.okey101)],
   rules: okey101Rules,
   buildPlay: (ctx) => TableView(ctx: ctx),
   tutorial: const [
